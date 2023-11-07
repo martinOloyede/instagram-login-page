@@ -1,0 +1,236 @@
+*{
+  margin: 0;
+}
+
+body{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  height: 150vh;
+}
+
+.main-container{
+  width: 280px;
+  height: 340px;
+  background-color:white;
+  border: 1px solid lightgrey;
+  margin:auto;
+}
+
+.content-container{
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+.top-container{
+  text-align:center;
+  width: 100%;
+  height: 85px;
+  padding-top: 9px;
+}
+
+.logo{
+  width: 80%;
+}
+
+input[type="userinfo"], input[type="password"] {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-size: 9px;
+  width: 90%;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: RGB(0, 149, 246);
+  border-radius: 8px;
+  border: none;
+  padding: 7px 0;
+  font-size: 11px;
+  color: white;
+  cursor: pointer;
+}
+
+.login-container{
+  text-align: center;
+}
+
+h5{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    line-height: 0.1em;
+    margin-top: 20px;
+    font-size: 11px;
+    color: grey;
+}
+
+h5 span{
+    background: #fff;
+    padding: 0 10px;
+}
+
+.facebook{
+  width: 10%;
+ }
+
+.facebook-login{
+  width: 100%;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+  margin-top: 23px; 
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.facebook-login > p{
+  font-size: 12px;
+  color: #385185;
+  font-weight: 700;
+  font-family: Segoe UI;
+}
+
+.pw-forgot {
+  font-size: 10px;
+  font-weight: 400;
+  text-align:center;
+}
+
+.pw-forgot > a{
+  text-decoration: none;
+  font-family: Segoe UI;
+  color: RGB(0, 55, 107);
+}
+
+.bottom-container{
+  width: 280px;
+  height: 50px;
+  background-color:white;
+  border: 1px solid lightgrey;
+  text-align: center;
+  margin: 10px 0; 
+}
+
+.bottom-container > p{
+  font-size: 12px;
+  font-family: Segoe UI;
+  padding: 15px;
+}
+
+.a-decoration > a{
+  text-decoration: none;
+  color: RGB(0, 149, 246);
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.get-the-app{
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-family: Segoe UI;
+  cursor: pointer;
+ 
+}
+
+.button-img{
+  width: 280px;
+  display: flex;
+  justify-content:center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.button-img > img{
+  width: 40%;
+}
+
+
+.footer-links{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding: 80px 5px;
+  margin: 70px;
+}
+
+.footer-links > ul{
+  width: 90%;
+  padding-bottom: 20px;
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+
+.footer-links > ul > li{
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-size: 13px;
+    list-style-type: none;
+    color:rgb(155, 155, 155);
+    margin: 3px 7px;
+    display:block;
+}
+
+.bottom-footer {
+    padding:5px 15px;
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-size: 11px;
+ 
+}
+
+
+.bottom-footer > p{
+    display:inline-block;
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-size: 11px;
+    margin-top: 5px; 
+    color:rgb(155, 155, 155);
+}
+
+#language{
+  margin-left: 16px;
+  font-size: 11px;
+  color:rgb(155, 155, 155);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+select{
+  width:70px;
+  border:none;
+  margin-right:10px;
+}
+
+
+@media screen and (min-width: 992px) {
+    .outer-container {
+      width: 600px;
+      height: 55vh;
+      display: flex;
+      justify-content:space-evenly;
+       margin:auto;
+      
+    }
+ 
+   .ig-phone{
+     width: 250px;
+     height: 444px;
+     background-image: url("https://assets.codepen.io/6060109/IG-phone.jpeg");
+     background-size: 100%;
+     margin-right: 0 10px;
+     margin-top: 60px;
+  }
+  
+ 
+}
+  
